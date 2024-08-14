@@ -23,26 +23,6 @@ class HumidityBarPainter extends CustomPainter {
 
     _drawGradientLine(canvas, size, radius, centerX, centerY);
     _drawTicks(canvas, size, radius, centerX, centerY);
-
-    // ///-----------------------------------
-    //
-    // final TextSpan currentValueSpan = TextSpan(
-    //   style: TextStyle(
-    //     color: Palette.blue,
-    //     fontSize: 16.sp,
-    //     fontWeight: FontWeight.bold,
-    //   ),
-    //   text: "$currentValue%",
-    // );
-    // final TextPainter tp = TextPainter(
-    //   text: currentValueSpan,
-    //   textAlign: TextAlign.right,
-    //   textDirection: TextDirection.ltr,
-    // );
-    // tp.layout();
-    // //tp.paint(canvas, Offset(centerX - radius * 4.5, centerY - tp.height / 2));
-    //
-    // ///------------------------------------
   }
 
   @override
